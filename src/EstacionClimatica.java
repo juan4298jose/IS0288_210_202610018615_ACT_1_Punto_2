@@ -4,7 +4,9 @@ public class EstacionClimatica {
 double [] temperaturas =new double[24];
 for ( int i=0; i<temperaturas.length;i++){
     
-    temperaturas[i]= Math.random()*40;
+    temperaturas[i]= Math.random()*40;{
+     
+    }
 
 
 
@@ -14,7 +16,7 @@ try {
     temperaturas[24] = 35;
     
 } catch ( ArrayIndexOutOfBoundsException e) {
-    System.out.println("erro:es de tamaño fijo tiene que ser de 0 a 23");
+    System.out.println("erro:es de tamaño fijo tiene que ser de 0 a 23"+temperaturas);
     // TODO: handle exception
 } {
 
